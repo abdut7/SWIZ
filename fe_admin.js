@@ -10,7 +10,7 @@ app.use((req,res,next)=>{
 app.get('/*',(req,res)=>{
     res.sendFile(__dirname+'/trade-app-frontend/index.html')
 })
-app.listen(4000, function () {
+app.listen(4001, function () {
     console.log('App is listening on port 4000' );
 });
 } catch (error) {
